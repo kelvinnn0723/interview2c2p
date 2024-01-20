@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="UI Tests + API Tests (2C2P)">
+
+    <listeners>
+        <listener class-name="main.TestListener" />
+    </listeners>
+
+    <test name="UITests">
+        <classes>
+            <class name="test.LoginTests" />
+            <class name="test.ProductsTests" />
+        </classes>
+    </test>
+    <test name="APITests">
+        <classes>
+            <class name="test.APITests" />
+        </classes>
+    </test>
+</suite>
