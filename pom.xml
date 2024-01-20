@@ -65,6 +65,17 @@
       <artifactId>testng</artifactId>
       <version>7.0.0</version>
     </dependency>
+    <!-- Cucumber dependencies -->
+    <dependency>
+        <groupId>io.cucumber</groupId>
+        <artifactId>cucumber-java</artifactId>
+        <version>7.3.0</version> <!-- Use the latest version available -->
+    </dependency>
+    <dependency>
+        <groupId>io.cucumber</groupId>
+        <artifactId>cucumber-testng</artifactId>
+        <version>7.3.0</version> <!-- Use the latest version available -->
+    </dependency>
 
   </dependencies>
 
